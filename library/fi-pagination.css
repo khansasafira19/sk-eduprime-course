@@ -1,0 +1,24 @@
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+ul.pagination li {
+    margin: 0 5px;
+}
+
+ul.pagination li a,
+ul.pagination li span {
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+ul.pagination li.active a,
+ul.pagination li.active span {
+    background-color: #0d6efd;
+    color: #fff;
+}
