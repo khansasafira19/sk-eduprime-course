@@ -1,3 +1,4 @@
+/* Run this views on SQL tab in PhpMyAdmin after exporting the sk_epc.sql"*/
 CREATE OR REPLACE VIEW ranking
 AS
 SELECT ls.*
